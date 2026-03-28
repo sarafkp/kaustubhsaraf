@@ -3,112 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaustubh Saraf | Senior Data Scientist</title>
+    <title>Kaustubh Prakash Saraf | Senior Data Scientist</title>
     <style>
-        :root { --primary: #0066cc; --dark: #1a1a1a; --grey: #666; --bg: #f4f7f6; }
-        body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: var(--dark); max-width: 900px; margin: 0 auto; padding: 40px 20px; background: var(--bg); }
-        header { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 30px; border-top: 6px solid var(--primary); }
-        h1 { margin: 0; font-size: 2.5em; letter-spacing: -0.5px; }
-        .subtitle { font-size: 1.2em; color: var(--primary); font-weight: 600; margin: 10px 0; }
-        .contact-nav { margin-top: 15px; }
-        .contact-nav a { margin-right: 15px; text-decoration: none; color: var(--grey); font-weight: 500; }
-        .contact-nav a:hover { color: var(--primary); }
+        :root { --primary: #2563eb; --text: #1f2937; --bg: #ffffff; --section-bg: #f8fafc; }
+        body { font-family: 'Inter', -apple-system, sans-serif; line-height: 1.5; color: var(--text); max-width: 900px; margin: 0 auto; padding: 40px 20px; background-color: #f1f5f9; }
+        header { text-align: center; margin-bottom: 40px; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        h1 { margin: 0; font-size: 2.2rem; color: #111827; }
+        .contact-info { margin-top: 10px; font-size: 0.95rem; color: #4b5563; }
+        .contact-info a { color: var(--primary); text-decoration: none; margin: 0 5px; }
         
-        section { background: white; padding: 30px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 2px 4px rgba(0,0,0,0.03); }
-        h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 0; color: var(--primary); font-size: 1.5em; }
+        section { background: white; padding: 30px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        h2 { border-bottom: 2px solid var(--primary); padding-bottom: 8px; margin-top: 0; font-size: 1.4rem; color: var(--primary); text-transform: uppercase; letter-spacing: 1px; }
+        h3 { margin-bottom: 5px; font-size: 1.15rem; color: #111827; }
         
-        .job { margin-bottom: 30px; }
-        .job-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
-        .job-title { font-weight: bold; font-size: 1.1em; color: #333; }
-        .job-date { color: var(--grey); font-size: 0.9em; }
+        .sub-header { display: flex; justify-content: space-between; font-weight: 600; color: #374151; margin-bottom: 5px; }
+        .date { font-weight: normal; color: #6b7280; }
         
-        .project-card { border-left: 4px solid #e0e0e0; padding-left: 20px; margin: 15px 0; }
-        .project-card h4 { margin: 5px 0; color: #444; }
-        .impact-tag { background: #e7f3ff; color: #0066cc; padding: 2px 8px; border-radius: 4px; font-size: 0.85em; font-weight: bold; display: inline-block; margin-top: 5px; }
+        .exp-item { margin-bottom: 25px; }
+        .project-title { font-weight: 700; color: #1e293b; margin-top: 12px; display: block; text-decoration: underline; }
         
-        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
-        .skill-cat strong { display: block; margin-bottom: 5px; color: var(--primary); }
+        ul { padding-left: 20px; margin-top: 8px; }
+        li { margin-bottom: 6px; }
         
-        ul { padding-left: 20px; margin-top: 5px; }
-        li { margin-bottom: 4px; }
-        @media (max-width: 600px) { .job-header { flex-direction: column; } }
+        .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .skill-item b { color: #1e293b; }
+        
+        @media (max-width: 600px) { .sub-header { flex-direction: column; } .skills-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Kaustubh Saraf</h1>
-    <div class="subtitle">Senior Data Scientist @ Amazon</div>
-    <p>5+ years of experience building scalable ML systems, experimentation platforms, and agentic AI solutions. Expertise in causal inference, LLM-powered applications, and driving measurable business impact through automation.</p>
-    <nav class="contact-nav">
-        <a href="mailto:kk1414@gmail.com">📧 Email</a>
-        <a href="https://www.linkedin.com/in/kaustubh-saraf/e" target="_blank">🔗 LinkedIn</a>
-        <a href="Resume Kaustubh Saraf.pdf">📄 Download Resume</a>
-    </nav>
+    <h1>Kaustubh Prakash Saraf</h1>
+    <div class="contact-info">
+        +1-513-356-2243 | <a href="mailto:kk1414@gmail.com">kk1414@gmail.com</a> | 
+        <a href="https://linkedin.com">LinkedIn</a> | <a href="#">Tableau Public</a><br>
+        Redmond, WA-98052
+    </div>
 </header>
 
-<section id="skills">
-    <h2>Skills & Expertise</h2>
-    <div class="skills-grid">
-        <div class="skill-cat"><strong>AI & Agentic Systems</strong> LangGraph, ReAct, RAG, NLP/LLMs, MCP Tooling</div>
-        <div class="skill-cat"><strong>Experimentation</strong> A/B Testing, Causal Inference (DiD), Power Analysis</div>
-        <div class="skill-cat"><strong>Machine Learning</strong> Predictive Modeling, Clustering (HDBSCAN), Time Series</div>
-        <div class="skill-cat"><strong>Engineering</strong> Python, SQL, AWS (Athena, S3, Redshift), Airflow</div>
-    </div>
+<section>
+    <h2>Summary</h2>
+    <p>Senior Data Scientist with 5+ years of experience building scalable machine learning systems, experimentation platforms, and agentic AI solutions at Amazon. Expertise in causal inference, A/B testing, and LLM-powered applications, with a proven track record of driving measurable business impact through data products and automation.</p>
 </section>
 
-<section id="experience">
-    <h2>Professional Experience</h2>
-
-    <div class="job">
-        <div class="job-header">
-            <span class="job-title">Amazon, Data Scientist II – AMZL L&D</span>
-            <span class="job-date">Apr 2025 – Present</span>
+<section>
+    <h2>Education</h2>
+    <div class="exp-item">
+        <div class="sub-header">
+            <span>University of Cincinnati</span>
+            <span class="date">Aug 2019 to Aug 2020</span>
         </div>
-        
-        <div class="project-card">
-            <h4>🤖 Agentic AI Reporting System</h4>
-            <p>Built a LangGraph-based RAG system for automated SQL generation and executive reporting. Migrated to ReAct-based Strand architecture with modular MCP toolkits.</p>
-            <span class="impact-tag">Impact: 98% accuracy; saved ~2 hours/day of PM effort.</span>
-        </div>
-
-        <div class="project-card">
-            <h4>🔬 Experimentation Platform</h4>
-            <p>Designed a self-service causal inference framework (Streamlit) for automated power analysis and rollout prediction.</p>
-            <span class="impact-tag">Impact: Reduced DS effort by 3 weeks per experiment.</span>
-        </div>
-
-        <div class="project-card">
-            <h4>📊 Peer Benchmarking Model</h4>
-            <p>Developed reusable ML framework (K-Means++, HDBSCAN) to segment employees by operational context.</p>
-            <span class="impact-tag">Impact: Improved precision by 60%; saved 15K hours/month.</span>
-        </div>
-    </div>
-
-    <div class="job">
-        <div class="job-header">
-            <span class="job-title">Amazon, Data Scientist II – A to Z Analytics</span>
-            <span class="job-date">Mar 2023 – Apr 2025</span>
-        </div>
+        <b>Master of Science in Business Analytics (GPA: 3.92)</b>
         <ul>
-            <li><b>LLM Feedback Intelligence:</b> Reduced manual review effort by 75% via automated topic detection and sentiment analysis.</li>
-            <li><b>Causal Analysis:</b> Applied DiD for feature launches; insights drove ~5% metric improvement globally.</li>
-            <li><b>Recommendation Engines:</b> Built KPI-driven engine with 80% adoption for employee recognition.</li>
+            <li>Statistical modeling and machine learning (regression, classification, time series) using Python and R</li>
+            <li>Graduate Assistant, Center for Business Analytics: delivered applied data science solutions to industry partners</li>
         </ul>
     </div>
+    <div class="exp-item">
+        <div class="sub-header">
+            <span>Vishwakarma Institute of Technology, University of Pune</span>
+            <span class="date">Aug 2011 to May 2015</span>
+        </div>
+        <b>Bachelor of Technology in Electronics Engineering (GPA: 8.78/10)</b>
+    </div>
 </section>
 
-<section id="education">
-    <h2>Education & Awards</h2>
-    <p><strong>MS in Business Analytics (GPA: 3.92)</strong> | University of Cincinnati</p>
-    <p><strong>B.Tech in Electronics Engineering</strong> | Vishwakarma Institute of Technology</p>
-    <hr>
-    <p>🏆 <b>Operational Excellence Award, Amazon</b> (Manager Recommendation & Segmentation Models)</p>
-    <p>🏆 <b>SPOT Award, Mu Sigma</b> (Critical Project Delivery Leadership)</p>
+<section>
+    <h2>Skills And Certifications</h2>
+    <div class="skills-grid">
+        <div class="skill-item"><b>Programming and Data:</b> Python, SQL, R, AWS (Athena, S3, Redshift), Airflow</div>
+        <div class="skill-item"><b>Machine Learning and AI:</b> Supervised/Unsupervised Learning, NLP and LLMs, Predictive Modeling</div>
+        <div class="skill-item"><b>Agentic AI Systems:</b> LangGraph, ReAct, Strand, MCP Tooling</div>
+        <div class="skill-item"><b>Experimentation:</b> A/B Testing, DiD, Power Analysis, Impact Measurement</div>
+        <div class="skill-item"><b>Visualization and BI:</b> Tableau, QuickSight, Streamlit, R Shiny</div>
+        <div class="skill-item"><b>Leadership:</b> Stakeholder Communication, Cross-functional Collaboration, Mentorship</div>
+    </div>
+</section>
+
+<section>
+    <h2>Awards</h2>
+    <ol>
+        <li><b>Operational Excellence Award, Amazon:</b> Recognized for developing a manager recommendation model and user segmentation model, contributing to the successful launch of Shout-Outs, Amazon’s largest recognition product.</li>
+        <li><b>SPOT Award, Mu Sigma:</b> Awarded for leading the team and overseeing project delivery during a critical phase of a high-stakes engagement.</li>
+    </ol>
+</section>
+
+<section>
+    <h2>Work Experience</h2>
+
+    <div class="exp-item">
+        <div class="sub-header">
+            <span>Amazon, Data Scientist II – AMZL L&D Team</span>
+            <span class="date">Apr 2025 – Current</span>
+        </div>
+        
+        <span class="project-title">Peer Benchmarking Model (Clustering & ML):</span>
+        <ul>
+            <li>Built clustering-based benchmarking models (K-Means++, HDBSCAN, Hierarchical) to segment employees by operational context and replace one-size-fits-all training selection</li>
+            <li>Improved targeting precision by ~60% and reduced unnecessary training by ~50%, saving ~15K hours/month</li>
+            <li>Developed reusable ML framework for feature engineering, clustering, tuning, evaluation, and benchmarking, enabling scalable deployment across cohorts and business lines</li>
+        </ul>
+
+        <span class="project-title">Experimentation Platform and Causal Inference:</span>
+        <ul>
+            <li>Designed a standardized experimentation framework using A/B testing and causal inference to scale impact measurement across programs</li>
+            <li>Built a self-service experimentation platform (power analysis, randomization, post-hoc analysis, rollout prediction) with a Streamlit frontend</li>
+            <li>Reduced ~3 weeks of DS effort per experiment; enabled 4+ experiments in 2025 with planned scale to 30+</li>
+        </ul>
+
+        <span class="project-title">Agentic AI Reporting System:</span>
+        <ul>
+            <li>Built an agentic reporting system using LangGraph for RAG-based table retrieval, automated SQL generation (Athena), and result summarization</li>
+            <li>Migrated to a ReAct-based Strand architecture and exposed modular tools (retrieval, SQL synthesis, document generation) as MCP toolkits for cross-team reuse</li>
+            <li>Achieved ~98% report completeness accuracy and automated executive reporting workflows</li>
+        </ul>
+    </div>
+
+    <div class="exp-item">
+        <div class="sub-header">
+            <span>Amazon, Data Scientist II – A to Z Analytics Team</span>
+            <span class="date">Mar 2023 – Apr 2025</span>
+        </div>
+        <ul>
+            <li><b>LLM-Based Feedback Intelligence:</b> Utilized LLMs for classifying user feedback into app features, performing topic detection, and conducting sentiment analysis; reduced manual review effort by ~75%.</li>
+            <li><b>Experimentation and Causal Analysis:</b> Applied difference-in-differences to evaluate feature launches; insights presented to VP leadership drove ~5% metric improvement.</li>
+            <li><b>Recommendation and Segmentation Models:</b> Developed KPI-driven recommendation engine with ~80% weekly adoption, streamlining manager workload.</li>
+        </ul>
+    </div>
+
+    <div class="exp-item">
+        <div class="sub-header">
+            <span>Amazon, Business Intelligence Engineer II</span>
+            <span class="date">Sept 2020 – Mar 2023</span>
+        </div>
+        <ul>
+            <li>Developed KPI frameworks and dashboards enabling data-driven product decisions; automated pipelines saving ~4 hours/week per business area.</li>
+        </ul>
+    </div>
+
+    <div class="exp-item">
+        <div class="sub-header">
+            <span>Mu Sigma Business Solutions, Lead Decision Scientist</span>
+            <span class="date">Sept 2015 – Oct 2018</span>
+        </div>
+        <ul>
+            <li>Segmented professional customers to transition to need-based pricing, driving a $25M annual revenue increase.</li>
+            <li>Built fraud detection model saving $200K annually and time-series forecasting models for gift card sales.</li>
+        </ul>
+    </div>
+
 </section>
 
 <footer>
-    <p style="text-align: center; color: #999; font-size: 0.8em;">&copy; 2026 Kaustubh Saraf. Hosted on GitHub Pages.</p>
+    <p style="text-align: center; color: #64748b; font-size: 0.8rem;">&copy; 2026 Kaustubh Prakash Saraf. Built with GitHub Pages.</p>
 </footer>
 
 </body>
