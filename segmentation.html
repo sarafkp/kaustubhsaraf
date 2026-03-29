@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Detail | Kaustubh Prakash Saraf</title>
+    <style>
+        :root { --primary: #2563eb; --text: #1f2937; --bg: #f1f5f9; }
+        body { font-family: 'Inter', -apple-system, sans-serif; line-height: 1.6; color: var(--text); max-width: 800px; margin: 0 auto; padding: 40px 20px; background-color: var(--bg); }
+        
+        /* Navigation */
+        .nav-header { margin-bottom: 20px; }
+        .back-link { 
+            text-decoration: none; color: var(--primary); font-weight: 600; 
+            display: inline-flex; align-items: center; transition: gap 0.2s;
+        }
+        .back-link:hover { gap: 10px; text-decoration: underline; }
+
+        /* Main Content Card */
+        article { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        
+        h1 { margin-top: 0; color: #111827; border-bottom: 2px solid var(--primary); padding-bottom: 10px; }
+        .project-meta { color: #6b7280; font-size: 0.95rem; margin-bottom: 30px; display: block; }
+        
+        h2 { color: var(--primary); font-size: 1.3rem; margin-top: 30px; border-left: 4px solid var(--primary); padding-left: 15px; }
+        
+        .impact-box { background: #eff6ff; border-radius: 6px; padding: 20px; margin: 20px 0; border: 1px solid #dbeafe; }
+        .impact-box h3 { margin-top: 0; color: #1e40af; font-size: 1.1rem; }
+
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+
+        .tech-tag { 
+            display: inline-block; background: #e2e8f0; color: #475569; 
+            padding: 4px 12px; border-radius: 15px; font-size: 0.85rem; 
+            margin-right: 8px; margin-bottom: 8px; font-weight: 500;
+        }
+
+        footer { text-align: center; margin-top: 40px; color: #6b7280; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+
+    <nav class="nav-header">
+        <a href="index.html" class="back-link">← Back to Home Page</a>
+    </nav>
+
+    <article>
+        <h1>Project Title Goes Here</h1>
+        <span class="project-meta">Amazon | Data Scientist II | 2024-2025</span>
+
+        <div class="impact-box">
+            <h3>🚀 Business Impact</h3>
+            <p>Summarize the "bottom line" here (e.g., Saved 15K hours/month, $25M revenue increase, 98% accuracy).</p>
+        </div>
+
+        <h2>Overview</h2>
+        <p>Write a brief description of the problem you were solving and why it mattered to the business.</p>
+
+        <h2>Technical Approach</h2>
+        <ul>
+            <li><strong>Methodology:</strong> Describe the ML models or statistical methods used (e.g., LangGraph for RAG, Causal Inference via DiD).</li>
+            <li><strong>Data Pipeline:</strong> Mention how data was sourced and processed (SQL/Athena/Airflow).</li>
+            <li><strong>Challenges:</strong> Discuss a technical hurdle you overcame during development.</li>
+        </ul>
+
+        <h2>Tools & Technologies</h2>
+        <div class="tech-stack">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">AWS Athena</span>
+            <span class="tech-tag">LangGraph</span>
+            <span class="tech-tag">SQL</span>
+        </div>
+
+        <h2>Key Learnings</h2>
+        <p>Briefly mention what this project taught you regarding scalability, stakeholder management, or new AI architectures.</p>
+    </article>
+
+    <footer>
+        <p>&copy; 2026 Kaustubh Prakash Saraf</p>
+    </footer>
+
+</body>
+</html>
